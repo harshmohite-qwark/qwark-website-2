@@ -182,34 +182,39 @@ const Footer = () => {
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Contact Us
+                <h2
+                  id="expert-info"
+                  className="relative mb-2 text-xl font-bold text-black dark:text-white"
+                >
+                  <span className="absolute left-[-12px] text-black dark:text-white">
+                    *
+                  </span>
+                  SUMAN TIWARI
                 </h2>
                 <ul>
                   <li>
-                    <Link
-                      href="mailto:corporate@qwark.com"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      corporate@qwark.in
-                    </Link>
-                  </li>
-                  {/* <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Terms of Use
-                    </Link>
+                    <h2 className="text-lg font-bold text-black dark:text-white">
+                      Registration No.
+                    </h2>
+                    <p className="text-black dark:text-white">INA300016871</p>
                   </li>
                   <li>
-                    <Link
-                      href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      About
-                    </Link>
-                  </li> */}
+                    <h2 className="text-lg font-bold text-black dark:text-white">
+                      E-mail
+                    </h2>
+                    <p className="text-black dark:text-white">
+                      iift.suman@gmail.com
+                    </p>
+                  </li>
+                  <li>
+                    <h2 className="text-lg font-bold text-black dark:text-white">
+                      Address
+                    </h2>
+                    <p className="text-black dark:text-white">
+                      Kalaberia, Sivtala RB Park, PO - Rajarhat Bishnupur,
+                      Barasat, West Bengal, 700135
+                    </p>
+                  </li>
                 </ul>
               </div>
             </div>
