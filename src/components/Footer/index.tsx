@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-between">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
+              <div className="mb-12 lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="/images/logo/logo-2.svg"
@@ -29,9 +29,15 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+
+                <p className="mb-3 max-w-[360px] text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Qwark is the financial co-pilot you deserve. Invest smarter,
                   save more, and achieve your financial goals faster.
+                </p>
+
+                <p className="mb-3 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  &copy;2025 Waterchest Technologies Private Limited. All rights
+                  reserved.
                 </p>
                 {/* <div className="flex items-center">
                   <a
